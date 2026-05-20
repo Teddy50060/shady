@@ -1,0 +1,4 @@
+spring.application.name=shady
+google.api.key =
+google.routes.base-url = https://routes.googleapis.com
+osm.overpass.base-url= https://overpass-api.de/api
