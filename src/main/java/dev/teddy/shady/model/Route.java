@@ -5,12 +5,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Route {
-    private String polyline;
+    private Polyline polyline;
     private List<Leg> legs;
     private int distanceMeters;
     private String duration;
 
-    public Route(String polyline, List<Leg> legs, int distanceMeters, String duration){
+    public Route(Polyline polyline, List<Leg> legs, int distanceMeters, String duration){
         this.polyline = polyline;
         this.legs = legs;
         this.distanceMeters = distanceMeters;

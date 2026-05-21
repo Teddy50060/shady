@@ -1,17 +1,17 @@
 package dev.teddy.shady.model;
 
 public class Leg {
-    private String polyline;
+    private Polyline polyline;
     private int distanceMeters;
     private String duration;
 
-    public Leg(String polyline, int distanceMeters, String duration){
-        this.polyline=polyline;
+    public Leg(Polyline polyline, int distanceMeters, String duration){
+        this.polyline = polyline;
         this.distanceMeters=distanceMeters;
         this.duration=duration;
     }
 
-    public String getEncodedPolyline() {
+    public String getPolyline() {
         return polyline;
     }
 
