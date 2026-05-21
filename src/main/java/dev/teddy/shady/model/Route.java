@@ -17,7 +17,7 @@ public class Route {
         this.duration = duration;
     }
 
-    public String getPolyline() {
+    public Polyline getPolyline() {
         return polyline;
     }
 
