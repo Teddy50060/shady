@@ -34,3 +34,7 @@ build/
 
 ### Config ###
 src/main/resources/application.properties
+src/main/*.geojson
+src/main/*.json
+src/main/*.csv
+src/main/bangkok_ids.txt
